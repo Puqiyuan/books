@@ -1,4 +1,5 @@
 #!/bin/bash
+
 cd $HOME/books
 string=`git status |grep -e "git add"`
 if [ -z "$string" ]
