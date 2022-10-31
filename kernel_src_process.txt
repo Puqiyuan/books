@@ -4,3 +4,4 @@
     inet_sendmsg->tcp_sendmsg_locked
 2, mm:
     alloc_pages->in_interrupt
+    __alloc_pages
