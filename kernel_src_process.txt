@@ -1,7 +1,7 @@
 1, net:
     __sys_sendto->sockfd_lookup_light
     sock_sendmsg->security_socket_sendmsg
-    inet_sendmsg->tcp_sendmsg_locked+1263
+    inet_sendmsg->tcp_sendmsg_locked+1299
 2, mm:
     alloc_pages->in_interrupt
     __alloc_pages+5543
