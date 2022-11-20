@@ -3,6 +3,8 @@
     sock_sendmsg->security_socket_sendmsg
     inet_sendmsg->tcp_sendmsg_locked+1299
     tcp_sendmsg_locked+1299->tcp_send_mss->tcp_current_mss->dst_mtu->ipv4_mtu->ip_dst_mtu_maybe_forward+449
+                                                         |
+                                                         |->tcp_sync_mss
 2, mm:
     alloc_pages->in_interrupt
     __alloc_pages+5543
